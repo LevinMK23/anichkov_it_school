@@ -5,9 +5,9 @@ import java.awt.*;
 
 public class Game extends JFrame {
 
-    static final ImageIcon xIcon = new ImageIcon("src/main/java/lesson3/x.jpg");
-    static final ImageIcon oIcon = new ImageIcon("src/main/java/lesson3/o.jpg");
-    static final ImageIcon emptyIcon = new ImageIcon("src/main/java/lesson3/empty.jpg");
+    static final ImageIcon xIcon = new ImageIcon("x.jpg");
+    static final ImageIcon oIcon = new ImageIcon("o.jpg");
+    static final ImageIcon emptyIcon = new ImageIcon("empty.jpg");
 
     static JButton[][] buttons = new JButton[3][3];
 
