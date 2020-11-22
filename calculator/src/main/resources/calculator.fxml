@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="531.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CalculatorController">
+    <TextField fx:id="text" alignment="BOTTOM_RIGHT" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="67.0" prefWidth="323.0">
+        <font>
+          <Font size="18.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="formula" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="323.0" />
+   <Button layoutX="256.0" layoutY="175.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="-" />
+   <Button layoutX="94.0" layoutY="175.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="/" />
+   <Button layoutX="175.0" layoutY="175.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="*" />
+   <Button layoutX="14.0" layoutY="175.0" mnemonicParsing="false" onAction="#clear" prefHeight="67.0" prefWidth="81.0" text="C" />
+   <Button layoutX="256.0" layoutY="242.0" mnemonicParsing="false" onAction="#input" prefHeight="134.0" prefWidth="81.0" text="+" />
+   <Button layoutX="94.0" layoutY="242.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="2" />
+   <Button layoutX="175.0" layoutY="242.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="3" />
+   <Button layoutX="14.0" layoutY="242.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="1" />
+   <Button layoutX="94.0" layoutY="309.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="5" />
+   <Button layoutX="175.0" layoutY="309.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="6" />
+   <Button layoutX="14.0" layoutY="309.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="4" />
+   <Button layoutX="256.0" layoutY="376.0" mnemonicParsing="false" onAction="#processBinary" prefHeight="134.0" prefWidth="81.0" text="Enter" />
+   <Button layoutX="94.0" layoutY="376.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="8" />
+   <Button layoutX="175.0" layoutY="376.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="9" />
+   <Button layoutX="14.0" layoutY="376.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="7" />
+   <Button layoutX="175.0" layoutY="443.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="." />
+   <Button layoutX="14.0" layoutY="443.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="161.0" text="0" />
+   <Button layoutX="256.0" layoutY="108.0" mnemonicParsing="false" onAction="#processUnary" prefHeight="67.0" prefWidth="81.0" text="Dec" />
+   <Button layoutX="94.0" layoutY="108.0" mnemonicParsing="false" onAction="#processUnary" prefHeight="67.0" prefWidth="81.0" text="Sqrt" />
+   <Button layoutX="175.0" layoutY="108.0" mnemonicParsing="false" onAction="#processUnary" prefHeight="67.0" prefWidth="81.0" text="Bin" />
+   <Button layoutX="14.0" layoutY="108.0" mnemonicParsing="false" onAction="#input" prefHeight="67.0" prefWidth="81.0" text="x ^ y" />
+</AnchorPane>

@@ -6,6 +6,7 @@
 
     <groupId>com.samsung.itschool</groupId>
     <artifactId>anichkov</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -31,6 +32,9 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>calculator</module>
+    </modules>
 
 
     <dependencies>
