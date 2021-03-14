@@ -1,0 +1,40 @@
+{
+  "name": "Ivan",
+  "surname": "Ivanov",
+  "birthDate": "23-06-1990",
+  "buyHistory": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "children": [
+    {
+      "name": "U1",
+      "surname": "U1S",
+      "birthDate": "1",
+      "buyHistory": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "children": []
+    },
+    {
+      "name": "U2",
+      "surname": "U2S",
+      "birthDate": "1",
+      "buyHistory": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "children": []
+    }
+  ]
+}
