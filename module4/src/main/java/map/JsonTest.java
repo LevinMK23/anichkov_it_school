@@ -15,6 +15,7 @@ public class JsonTest {
         user.setChildren(List.of(
                 new User("U1", "U1S", "1"),
                 new User("U2", "U2S", "1")));
+
         Gson gson = new Gson();
         String json = gson.toJson(user);
         System.out.println(json);

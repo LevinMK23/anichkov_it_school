@@ -1,0 +1,7 @@
+IPhone 70000 100
+IPhone 70000 50
+IPhone 130000 50
+IPhone 45000 200
+Samsung 40000 500
+Samsung 40000 300
+Samsung 80000 50
