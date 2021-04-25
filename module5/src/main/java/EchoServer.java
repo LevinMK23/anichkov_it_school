@@ -1,5 +1,3 @@
-package module5;
-
 import java.net.ServerSocket;
 import java.net.Socket;
 

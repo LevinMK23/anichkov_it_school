@@ -35,6 +35,7 @@
     <modules>
         <module>calculator</module>
         <module>module4</module>
+        <module>module5</module>
     </modules>
 
 
@@ -52,6 +53,12 @@
             <groupId>com.squareup.okhttp</groupId>
             <artifactId>okhttp</artifactId>
             <version>2.7.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.2</version>
         </dependency>
 
 
