@@ -17,7 +17,6 @@ public class RestApiConsumer {
 
         OkHttpClient client = new OkHttpClient();
 
-
         System.out.println("Привет, ты находишься в Апи предиктора яндекса");
         System.out.println("Введи текст и нажми enter,  я скажу что ты хотел ввести)");
         System.out.println("Для выхода введи q");
