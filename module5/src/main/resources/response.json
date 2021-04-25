@@ -1,0 +1,72 @@
+{
+  "response": {
+    "GeoObjectCollection": {
+      "metaDataProperty": {
+        "GeocoderResponseMetaData": {
+          "request": "Санкт-Петербург, 1",
+          "results": "10",
+          "found": "1"
+        }
+      },
+      "featureMember": [
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Россия, Санкт-Петербург",
+                "kind": "locality",
+                "Address": {
+                  "country_code": "RU",
+                  "formatted": "Россия, Санкт-Петербург",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Россия"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Северо-Западный федеральный округ"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Санкт-Петербург"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "Санкт-Петербург"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Россия, Санкт-Петербург",
+                    "CountryNameCode": "RU",
+                    "CountryName": "Россия",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "Санкт-Петербург",
+                      "Locality": {
+                        "LocalityName": "Санкт-Петербург"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "Санкт-Петербург",
+            "description": "Россия",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "30.043373 59.744311",
+                "upperCorner": "30.566426 60.090917"
+              }
+            },
+            "Point": {
+              "pos": "30.315868 59.939095"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
